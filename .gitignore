@@ -1,0 +1,114 @@
+# ===========================
+# Node.js
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===========================
+# Hardhat
+# ===========================
+cache/
+artifacts/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Ignore generated accounts file
+local-accounts.txt
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+energy-trading/.env
+
+# ===========================
+# IDEs
+# ===========================
+.vscode/
+.idea/
+*.iml
+
+# ===========================
+# Operating System Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ===========================
+# Compiled Files
+# ===========================
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# ===========================
+# Runtime Files
+# ===========================
+*.pid
+*.seed
+*.pid.lock
+
+# ===========================
+# Python Generated Files
+# ===========================
+*.sqlite3
+*.db
+
+# ===========================
+# Optional (Uncomment if desired)
+# ===========================
+
+# Ignore generated ABI
+# energy-trading/contract_abi.json
+
+# Ignore copied contract artifact
+# artifacts/CentralSmartContract.json
