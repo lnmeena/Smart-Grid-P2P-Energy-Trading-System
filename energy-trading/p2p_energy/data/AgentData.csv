@@ -1,0 +1,21 @@
+Agent,Type,Energy,Bus,Community,Pmin,Pmax,a ($/MW^2),b ($/MW)
+1,Consumer,-,2,1,0,21.7,-1.18,50.9
+2,Consumer,-,3,1,0,94.2,-0.24,37.8
+3,Consumer,-,4,1,0,47.8,-0.57,43.6
+4,Consumer,-,5,1,0,7.6,-1.24,50.3
+5,Consumer,-,6,3,0,11.2,-1.62,30.4
+6,Consumer,-,9,2,0,29.5,-0.31,27.5
+7,Consumer,-,10,2,0,9,-4.36,46.7
+8,Consumer,-,11,3,0,3.5,-1.63,33.2
+9,Consumer,-,12,3,0,6.1,-5.16,55
+10,Consumer,-,13,3,0,13.5,-1.96,62.1
+11,Consumer,-,14,2,0,14.9,-1.54,42.9
+12,Producer,Wind,2,1,0,50,0,0
+13,Producer,Wind,3,1,0,30,0,0
+14,Producer,Wind,8,2,0,40,0,0
+15,Producer,Solar,2,1,0,30,0,0
+16,Producer,Solar,6,3,0,30,0,0
+17,Producer,Gas,2,1,0,20,2.51,27.7
+18,Producer,Coal,3,1,0,50,0.15,35.5
+19,Producer,Gas,8,2,0,10,3.64,30.4
+20,Grid,-,1,-,-,-,-,-
